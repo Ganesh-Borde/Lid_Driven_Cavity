@@ -17,7 +17,8 @@
 \usepackage{caption}
 \usepackage{float}
 \usepackage{color}
-
+\usepackage[backend=biber]{biblatex}
+\addbibresource{bibliography.bib} % add your .bib file
 
 
 \title{ Steady State Lid Driven Cavity Using Simple Algorithm - Finite Volume Method}
@@ -58,9 +59,9 @@ their sole purpose in this study is to project the velocity field onto the solen
 
 \begin{figure}[t]
     \centering
-    \label{fig:lid_driven}
     \includegraphics{lid_driven.pdf}
     \caption{Problem description of lid-driven cavity flow.}
+    \label{fig:lid_driven}
 \end{figure}
 
 \subsection{Governing equations}
@@ -131,10 +132,12 @@ decoupling, which leads to checkerboard oscillation patterns in the solutions. B
 using a staggered grid, odd-even decoupling between pressure and velocity can be 
 effectively avoided. In a staggered grid, pressure values (\( p \)) are located at the 
 center of the cells, while the velocity components \( u \) and \( v \) are stored at the cell 
-faces, as shown in Fig.~\ref{}.
+faces, as shown in Fig.~\ref{fig:staggered}.
 \begin{figure}
-    \includegraphics{staggered_grid.png}
+    \centering
+    \includegraphics[scale=0.8]{staggered_grid.png}
     \caption{Staggered grid configuration}
+    \label{fig:staggered}
 \end{figure}
 
 Boundary conditions can be defined in two different forms: 
@@ -265,52 +268,87 @@ The SIMPLE algorithm  used in this study is described below:
 
 \section{Results}
 The lid driven cavity problem has been solved for different Reynolds numbers using the SIMPLE method. The results for low Reynolds numbers 100 and 400 have been computed, for Re 1000 the solver was showing some diverging results. So, the post processing results have been done for Re 100 and 400 with grid size as $129\times129$ nodes.
-The problem has a steady state solution, so choosing the tolerance rate effects the result of the system. The tolerance of $1\times 10^{-6}$ have been chosen based on the execution time and solution. The SIMPLE algorithm is solved using MATLAB for computations and post processing. 
+The problem has a steady state solution, so choosing the tolerance rate effects the result of the system. The tolerance of $1\times 10^{-6}$ have been chosen based on the execution time and solution. The SIMPLE algorithm is solved using MATLAB for computations and post processing.  All the results presented below are dimensionless.
+
 \subsection{Comparison of velocities}
-The velocity values for Re 100 and 400 and $129\times129$ node points from the post processing are plotted along the axis and they are compared with results obtained from Ghia et al.~\cite{ghia1982high} on the same plot. $u$ velocity is plotted along a vertical bisector  for both Re 100 and 400, which is shown in Fig.~\ref{}. $v$ velocity is plotted along the horizontal bisector for both Re 100 and 400, which is shown in Fig.~\ref{}.
+The velocity values for Re 100 and 400 and $129\times129$ node points from the post processing are plotted along the axis and they are compared with results obtained from Ghia et al.~\cite{ghia1982high} on the same plot. $u$ velocity is plotted along a vertical bisector  for both Re 100 and 400, which is shown in Fig.~\ref{fig:u_velocity_comp}. $v$ velocity is plotted along the horizontal bisector for both Re 100 and 400, which is shown in Fig.~\ref{fig:v_velocity_comp}.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.9,trim=50 0 55 0, clip]{u_velocity_comp.eps}
+    \caption{$u$ velocity comparison along vertical bisector for Re 100 and 400.}
+    \label{fig:u_velocity_comp}
+\end{figure}
 
 The slope towards the wall becomes sharper as the Reynolds number rises. The explanation is that while the viscous force predominates at low Reynolds numbers, it swiftly diminishes as numbers rise. As a result, in flows with high Reynolds numbers, the convective force dominates, and the viscous force is quite weak.
 
 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.9,trim=50 0 55 0, clip]{v_velocity_comp.eps}
+    \caption{$v$ velocity comparison along horizontal bisector for Re 100 and 400.}
+    \label{fig:v_velocity_comp}
+\end{figure}
+
+
+
+
 \subsection{Comparison of the streamlines}
-The post processing from MATLAB gives the streamline tracking, the streamline for the Re 100 and 400 are shown in Fig.~\ref and Fig.~\ref respectively. They are compared with streamline from Ghia et al.~\cite{ghia1982high}. The result from SIMPLE algorithm and Ghia et al. looks identical. As the Reynolds increases from 100 to 400 the streamlines look different, where the secondary vortices appear in corners of cavity, they are rotating in the opposite direction. The primary vortices density decreases, and they tend to move to center as Reynolds number increases the secondary vortices grow.
+The post processing from MATLAB gives the streamline tracking, the streamline for the Re 100 and 400 are shown in Fig.~\ref{fig:streamline}. They are also compared with streamline from Ghia et al.~\cite{ghia1982high}. The result from SIMPLE algorithm and Ghia et al. looks identical. As the Reynolds increases from 100 to 400 the streamlines look different, where the secondary vortices appear in corners of cavity, they are rotating in the opposite direction. The primary vortices density decreases, and they tend to move to center as Reynolds number increases the secondary vortices grow.
 
 \begin{figure}
     \centering
     \includegraphics[trim=60 0 60 0, clip]{streamline.eps}
-    \caption{$v$ Velocity Contours}
-    \label{fig:v_velocity}
+    \caption{Streamline across domain for Re 100 and 400}
+    \label{fig:streamline}
 \end{figure}
 
 
 
 \subsection{Convergence}
-The residual error verses the number of iterations is plotted in post processing which is shown in  Fig.~\ref{}  for Re 100 and 400. The execution time and number of iterations executed for convergence are shown in Table~\ref{}.
-\begin{figure}
+The residual error verses the number of iterations is plotted in post processing which is shown in  Fig.~\ref{fig:residual}  for Re 100 and 400. The execution time and number of iterations executed for convergence are shown in Table~\ref{tab:residual}.
+\begin{figure}[H]
     \centering
     \includegraphics{residual.eps}
     \caption{$v$ Velocity Contours}
-    \label{fig:v_velocity}
+    \label{fig:residual}
 \end{figure}
 
+\begin{table}
+    \centering
+    \caption{Exceution time and no. of iterations for Re 100 and 400}
+    \label{tab:residual}
+    \begin{tabular}{c c c }
+        \toprule
+        Reynolds number & Execution time (s)   &Iterations \\
+        \midrule
+        100             & 62.48      & 17705         \\
+        400            &63.89 & 13843        \\
+        \bottomrule        
+    \end{tabular}
+\end{table}
+
+
 \subsection{Contours}
+The $u$ velocity contours along the domain for Re 100 and 400 is shown in Fig.~\ref{fig:u_velocity}, and  The $v$ velocity contours along the domain for Re 100 and 400 is shown in Fig.~\ref{fig:v_velocity}. Also the stream function is plotted along the domain as shown in Fig.~\ref{fig:stream_function}
 \begin{figure}
     \centering
     \includegraphics[trim=60 0 60 0, clip]{u_velocity.eps}
-    \caption{u Velocity Contours}
+    \caption{$u$ velocity contours along the domain for Re 100 and 400}
     \label{fig:u_velocity}
 \end{figure}
 \begin{figure}
     \centering
     \includegraphics[trim=60 0 60 0, clip]{v_velocity.eps}
-    \caption{$v$ Velocity Contours}
+    \caption{$u$ velocity contours along the domain for Re 100 and 400}
     \label{fig:v_velocity}
 \end{figure}
 \begin{figure}
     \centering
     \includegraphics[trim=60 0 60 0, clip]{stream_function.eps}
-    \caption{$v$ Velocity Contours}
-    \label{fig:v_velocity}
+    \caption{Stream function contours along the domain for Re 100 and 400}
+    \label{fig:stream_function}
 \end{figure}
 
 
