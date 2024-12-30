@@ -271,14 +271,48 @@ The velocity values for Re 100 and 400 and $129\times129$ node points from the p
 
 The slope towards the wall becomes sharper as the Reynolds number rises. The explanation is that while the viscous force predominates at low Reynolds numbers, it swiftly diminishes as numbers rise. As a result, in flows with high Reynolds numbers, the convective force dominates, and the viscous force is quite weak.
 
+
 \subsection{Comparison of the streamlines}
 The post processing from MATLAB gives the streamline tracking, the streamline for the Re 100 and 400 are shown in Fig.~\ref and Fig.~\ref respectively. They are compared with streamline from Ghia et al.~\cite{ghia1982high}. The result from SIMPLE algorithm and Ghia et al. looks identical. As the Reynolds increases from 100 to 400 the streamlines look different, where the secondary vortices appear in corners of cavity, they are rotating in the opposite direction. The primary vortices density decreases, and they tend to move to center as Reynolds number increases the secondary vortices grow.
+
+\begin{figure}
+    \centering
+    \includegraphics[trim=60 0 60 0, clip]{streamline.eps}
+    \caption{$v$ Velocity Contours}
+    \label{fig:v_velocity}
+\end{figure}
+
 
 
 \subsection{Convergence}
 The residual error verses the number of iterations is plotted in post processing which is shown in  Fig.~\ref{}  for Re 100 and 400. The execution time and number of iterations executed for convergence are shown in Table~\ref{}.
+\begin{figure}
+    \centering
+    \includegraphics{residual.eps}
+    \caption{$v$ Velocity Contours}
+    \label{fig:v_velocity}
+\end{figure}
 
 \subsection{Contours}
+\begin{figure}
+    \centering
+    \includegraphics[trim=60 0 60 0, clip]{u_velocity.eps}
+    \caption{u Velocity Contours}
+    \label{fig:u_velocity}
+\end{figure}
+\begin{figure}
+    \centering
+    \includegraphics[trim=60 0 60 0, clip]{v_velocity.eps}
+    \caption{$v$ Velocity Contours}
+    \label{fig:v_velocity}
+\end{figure}
+\begin{figure}
+    \centering
+    \includegraphics[trim=60 0 60 0, clip]{stream_function.eps}
+    \caption{$v$ Velocity Contours}
+    \label{fig:v_velocity}
+\end{figure}
+
 
 
 \section{Conclusion}
