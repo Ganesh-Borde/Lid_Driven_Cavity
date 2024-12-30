@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.23)  29 DEC 2024 18:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.23)  30 DEC 2024 12:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"d:/UT coursers/Fundamentals of CFD/Lid_Driven_latex/main.tex"
-(d:/UT coursers/Fundamentals of CFD/Lid_Driven_latex/main.tex
+**"d:/UT coursers/Fundamentals of CFD/Lid_Driven_Cavity/Lid_Driven_latex/main.tex"
+(d:/UT coursers/Fundamentals of CFD/Lid_Driven_Cavity/Lid_Driven_latex/main.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-04-11>
 (C:\Program Files\MiKTeX\tex/latex/base\article.cls
@@ -236,23 +236,33 @@ Package color Info: Driver file: pdftex.def on input line 149.
 File: l3backend-pdftex.def 2024-04-11 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count288
 \l__pdf_internal_box=\box57
-) (main.aux)
+) (main.aux
+
+LaTeX Warning: Label `fig:v_velocity' multiply defined.
+
+
+LaTeX Warning: Label `fig:v_velocity' multiply defined.
+
+
+LaTeX Warning: Label `fig:v_velocity' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
  (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count289
@@ -309,164 +319,172 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 26.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 27.
 (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 26.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 27.
  (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 26.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 27.
  (C:\Program Files\MiKTeX\tex/latex/base\ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 
-LaTeX Warning: Reference `fig:lid_driven' on page 1 undefined on input line 45.
+Package caption Warning: \label without proper reference on input line 61.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:lid_driven' on page 1 undefined on input line 46.
 
 <lid_driven.pdf, id=1, 392.96812pt x 194.97844pt>
 File: lid_driven.pdf Graphic file (type pdf)
 <use lid_driven.pdf>
-Package pdftex.def Info: lid_driven.pdf  used on input line 61.
+Package pdftex.def Info: lid_driven.pdf  used on input line 62.
 (pdftex.def)             Requested size: 392.96715pt x 194.97795pt.
 [1
 
 {C:/Users/Ganesh/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
 
-LaTeX Warning: Reference `Eq:x_mom' on page 2 undefined on input line 88.
+LaTeX Warning: Citation `shen1991hopf' on page 2 undefined on input line 100.
 
 
-LaTeX Warning: Reference `Eq:y_mom' on page 2 undefined on input line 88.
+LaTeX Warning: Citation `chorin1997numerical' on page 2 undefined on input line 110.
 
 
-LaTeX Warning: Citation `shen1991hopf' on page 2 undefined on input line 98.
-
-
-LaTeX Warning: Citation `chorin1997numerical' on page 2 undefined on input line 108.
-
-
-LaTeX Warning: Citation `ni2007bridge' on page 2 undefined on input line 112.
+LaTeX Warning: Citation `ni2007bridge' on page 2 undefined on input line 114.
 
 [2 <./lid_driven.pdf>]
 
-LaTeX Warning: Reference `' on page 3 undefined on input line 132.
+LaTeX Warning: Reference `' on page 3 undefined on input line 134.
 
-d:/UT coursers/Fundamentals of CFD/Lid_Driven_latex/main.tex:134: Undefined control sequence.
-<argument> staggered 
-                     _grid.png
-l.134     \includegraphics{\staggered_grid.png}
-                                               
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+<staggered_grid.png, id=24, 452.892pt x 271.61475pt>
+File: staggered_grid.png Graphic file (type png)
+<use staggered_grid.png>
+Package pdftex.def Info: staggered_grid.png  used on input line 136.
+(pdftex.def)             Requested size: 452.89088pt x 271.61407pt.
+[3 <./staggered_grid.png>] [4]
 
-d:/UT coursers/Fundamentals of CFD/Lid_Driven_latex/main.tex:134: Undefined control sequence.
-<argument> staggered 
-                     _grid.png
-l.134     \includegraphics{\staggered_grid.png}
-                                               
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-d:/UT coursers/Fundamentals of CFD/Lid_Driven_latex/main.tex:134: Undefined control sequence.
-<inserted text> staggered 
-                          _grid.png
-l.134     \includegraphics{\staggered_grid.png}
-                                               
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-d:/UT coursers/Fundamentals of CFD/Lid_Driven_latex/main.tex:134: Undefined control sequence.
-<write> 
-LaTeX Warning: File `\staggered 
-                                         _grid.png' not found\on@line .
-l.134     \includegraphics{\staggered_grid.png}
-                                               
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+LaTeX Warning: Citation `ghia1982high' on page 5 undefined on input line 270.
 
 
-LaTeX Warning: File `_grid.png' not found on input line 134.
+LaTeX Warning: Reference `' on page 5 undefined on input line 270.
 
 
-d:/UT coursers/Fundamentals of CFD/Lid_Driven_latex/main.tex:134: Package pdftex.def Error: File `_grid.png' not found: using draft setting.
+LaTeX Warning: Reference `' on page 5 undefined on input line 270.
 
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.134     \includegraphics{\staggered_grid.png}
-                                               
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+[5]
+
+LaTeX Warning: Reference `a' on page 6 undefined on input line 276.
 
 
-LaTeX Warning: Reference `tab:variables' on page 3 undefined on input line 146.
+LaTeX Warning: Reference `r' on page 6 undefined on input line 276.
 
 
-LaTeX Warning: Reference `Eq:x_mom' on page 3 undefined on input line 166.
+LaTeX Warning: Citation `ghia1982high' on page 6 undefined on input line 276.
 
-d:/UT coursers/Fundamentals of CFD/Lid_Driven_latex/main.tex:168: Undefined control sequence.
-<argument> ((u \overhat 
-                        {u})_e -(u \overhat {u})_w){\Delta x}
-l.168 ...hat{u})_e -(u \overhat{u})_w){\Delta x}}+
-                                                  \frac{((u \overhat{v})_n -...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+Package epstopdf Info: Source file: <streamline.eps>
+(epstopdf)                    date: 2024-12-30 12:55:57
+(epstopdf)                    size: 133459 bytes
+(epstopdf)             Output file: <streamline-eps-converted-to.pdf>
+(epstopdf)                    date: 2024-12-30 12:56:56
+(epstopdf)                    size: 292951 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=streamline-eps-converted-to.pdf streamline.eps>
+(epstopdf)             \includegraphics on input line 280.
+Package epstopdf Info: Output file is already uptodate.
+<streamline-eps-converted-to.pdf, id=39, 602.25pt x 301.125pt>
+File: streamline-eps-converted-to.pdf Graphic file (type pdf)
+<use streamline-eps-converted-to.pdf>
+Package pdftex.def Info: streamline-eps-converted-to.pdf  used on input line 280.
+(pdftex.def)             Requested size: 481.79854pt x 301.12425pt.
 
-d:/UT coursers/Fundamentals of CFD/Lid_Driven_latex/main.tex:168: Undefined control sequence.
-<argument> ((u \overhat {u})_e -(u \overhat 
-                                            {u})_w){\Delta x}
-l.168 ...hat{u})_e -(u \overhat{u})_w){\Delta x}}+
-                                                  \frac{((u \overhat{v})_n -...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-d:/UT coursers/Fundamentals of CFD/Lid_Driven_latex/main.tex:169: Undefined control sequence.
-<argument> ((u \overhat 
-                        {v})_n -(u \overhat {v})_s){\Delta y}
-l.169     =
-            -\frac{p_{I+1,j}-p_{I-1,j}{\Delta x}}  +  \frac{1}{Re} \left [\f...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-d:/UT coursers/Fundamentals of CFD/Lid_Driven_latex/main.tex:169: Undefined control sequence.
-<argument> ((u \overhat {v})_n -(u \overhat 
-                                            {v})_s){\Delta y}
-l.169     =
-            -\frac{p_{I+1,j}-p_{I-1,j}{\Delta x}}  +  \frac{1}{Re} \left [\f...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Overfull \hbox (33.16368pt too wide) detected at line 170
-[][][] \OMS/cmsy/m/n/10 ^^@ [][] [] \OML/cmm/m/it/10 ;
+Overfull \hbox (12.04352pt too wide) in paragraph at lines 280--281
+ [][] 
  []
 
-[3] (main.aux)
+
+LaTeX Warning: Reference `' on page 6 undefined on input line 288.
+
+
+LaTeX Warning: Reference `' on page 6 undefined on input line 288.
+
+Package epstopdf Info: Source file: <residual.eps>
+(epstopdf)                    date: 2024-12-30 12:33:56
+(epstopdf)                    size: 97221 bytes
+(epstopdf)             Output file: <residual-eps-converted-to.pdf>
+(epstopdf)                    date: 2024-12-30 12:56:57
+(epstopdf)                    size: 61541 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=residual-eps-converted-to.pdf residual.eps>
+(epstopdf)             \includegraphics on input line 291.
+Package epstopdf Info: Output file is already uptodate.
+<residual-eps-converted-to.pdf, id=41, 421.575pt x 316.18124pt>
+File: residual-eps-converted-to.pdf Graphic file (type pdf)
+<use residual-eps-converted-to.pdf>
+Package pdftex.def Info: residual-eps-converted-to.pdf  used on input line 291.
+(pdftex.def)             Requested size: 421.57396pt x 316.18047pt.
+Package epstopdf Info: Source file: <u_velocity.eps>
+(epstopdf)                    date: 2024-12-30 12:19:22
+(epstopdf)                    size: 383574 bytes
+(epstopdf)             Output file: <u_velocity-eps-converted-to.pdf>
+(epstopdf)                    date: 2024-12-30 12:23:34
+(epstopdf)                    size: 112192 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=u_velocity-eps-converted-to.pdf u_velocity.eps>
+(epstopdf)             \includegraphics on input line 299.
+Package epstopdf Info: Output file is already uptodate.
+<u_velocity-eps-converted-to.pdf, id=42, 602.25pt x 301.125pt>
+File: u_velocity-eps-converted-to.pdf Graphic file (type pdf)
+<use u_velocity-eps-converted-to.pdf>
+Package pdftex.def Info: u_velocity-eps-converted-to.pdf  used on input line 299.
+(pdftex.def)             Requested size: 481.79854pt x 301.12425pt.
+
+Overfull \hbox (12.04352pt too wide) in paragraph at lines 299--300
+ [][] 
+ []
+
+[6 <./streamline-eps-converted-to.pdf>] [7 <./residual-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <v_velocity.eps>
+(epstopdf)                    date: 2024-12-30 12:26:35
+(epstopdf)                    size: 82945 bytes
+(epstopdf)             Output file: <v_velocity-eps-converted-to.pdf>
+(epstopdf)                    date: 2024-12-30 12:56:58
+(epstopdf)                    size: 74711 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=v_velocity-eps-converted-to.pdf v_velocity.eps>
+(epstopdf)             \includegraphics on input line 305.
+Package epstopdf Info: Output file is already uptodate.
+<v_velocity-eps-converted-to.pdf, id=60, 602.25pt x 301.125pt>
+File: v_velocity-eps-converted-to.pdf Graphic file (type pdf)
+<use v_velocity-eps-converted-to.pdf>
+Package pdftex.def Info: v_velocity-eps-converted-to.pdf  used on input line 305.
+(pdftex.def)             Requested size: 481.79854pt x 301.12425pt.
+
+Overfull \hbox (12.04352pt too wide) in paragraph at lines 305--306
+ [][] 
+ []
+
+Package epstopdf Info: Source file: <stream_function.eps>
+(epstopdf)                    date: 2024-12-30 12:27:18
+(epstopdf)                    size: 10884537 bytes
+(epstopdf)             Output file: <stream_function-eps-converted-to.pdf>
+(epstopdf)                    date: 2024-12-30 12:57:03
+(epstopdf)                    size: 2693081 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=stream_function-eps-converted-to.pdf stream_function.eps>
+(epstopdf)             \includegraphics on input line 311.
+Package epstopdf Info: Output file is already uptodate.
+<stream_function-eps-converted-to.pdf, id=62, 602.25pt x 301.125pt>
+File: stream_function-eps-converted-to.pdf Graphic file (type pdf)
+<use stream_function-eps-converted-to.pdf>
+Package pdftex.def Info: stream_function-eps-converted-to.pdf  used on input line 311.
+(pdftex.def)             Requested size: 481.79854pt x 301.12425pt.
+
+Overfull \hbox (12.04352pt too wide) in paragraph at lines 311--312
+ [][] 
+ []
+
+
+LaTeX Warning: Citation `ghia1982high' on page 8 undefined on input line 319.
+
+[8 <./u_velocity-eps-converted-to.pdf>] [9 <./v_velocity-eps-converted-to.pdf>] [10 <./stream_function-eps-converted-to.pdf>] (main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-04-11>
@@ -476,21 +494,21 @@ L3 programming layer <2024-04-11>
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 8518 strings out of 474370
- 156031 string characters out of 5750347
- 1937754 words of memory out of 5000000
- 30792 multiletter control sequences out of 15000+600000
- 572589 words of font info for 93 fonts, out of 8000000 for 9000
+ 8542 strings out of 474370
+ 157138 string characters out of 5750347
+ 1944754 words of memory out of 5000000
+ 30817 multiletter control sequences out of 15000+600000
+ 572421 words of font info for 92 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,9n,117p,573b,375s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\Ganesh\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (3 pages, 184819 bytes).
+ 69i,9n,117p,743b,382s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\Ganesh\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on main.pdf (10 pages, 3502792 bytes).
 PDF statistics:
- 91 PDF objects out of 1000 (max. 8388607)
+ 152 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 60 words of extra memory for PDF output out of 10000 (max. 10000000)
 

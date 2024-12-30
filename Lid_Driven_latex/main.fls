@@ -1,6 +1,6 @@
-PWD d:\UT coursers\Fundamentals of CFD\Lid_Driven_latex
+PWD d:\UT coursers\Fundamentals of CFD\Lid_Driven_Cavity\Lid_Driven_latex
 INPUT C:\Users\Ganesh\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT d:\UT coursers\Fundamentals of CFD\Lid_Driven_latex\main.tex
+INPUT d:\UT coursers\Fundamentals of CFD\Lid_Driven_Cavity\Lid_Driven_latex\main.tex
 OUTPUT main.log
 INPUT C:\Program Files\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Program Files\MiKTeX\tex\latex\base\article.cls
@@ -184,7 +184,73 @@ INPUT .\lid_driven.pdf
 INPUT .\lid_driven.pdf
 INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\tcrm1000.tfm
 INPUT C:\Users\Ganesh\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmtt10.tfm
+INPUT .\staggered_grid.png
+INPUT .\staggered_grid.png
+INPUT .\staggered_grid.png
+INPUT .\staggered_grid.png
+INPUT .\staggered_grid.png
+INPUT .\staggered_grid.png
+INPUT .\staggered_grid.png
+INPUT .\streamline.eps
+INPUT .\streamline.eps
+INPUT .\streamline.eps
+INPUT .\streamline.eps
+INPUT .\streamline.eps
+INPUT .\streamline-eps-converted-to.pdf
+INPUT .\streamline-eps-converted-to.pdf
+INPUT .\streamline.eps
+INPUT .\streamline-eps-converted-to.pdf
+INPUT .\streamline-eps-converted-to.pdf
+INPUT .\streamline-eps-converted-to.pdf
+INPUT .\streamline-eps-converted-to.pdf
+INPUT .\residual.eps
+INPUT .\residual.eps
+INPUT .\residual.eps
+INPUT .\residual.eps
+INPUT .\residual.eps
+INPUT .\residual-eps-converted-to.pdf
+INPUT .\residual-eps-converted-to.pdf
+INPUT .\residual.eps
+INPUT .\residual-eps-converted-to.pdf
+INPUT .\residual-eps-converted-to.pdf
+INPUT .\residual-eps-converted-to.pdf
+INPUT .\residual-eps-converted-to.pdf
+INPUT .\u_velocity.eps
+INPUT .\u_velocity.eps
+INPUT .\u_velocity.eps
+INPUT .\u_velocity.eps
+INPUT .\u_velocity.eps
+INPUT .\u_velocity-eps-converted-to.pdf
+INPUT .\u_velocity-eps-converted-to.pdf
+INPUT .\u_velocity.eps
+INPUT .\u_velocity-eps-converted-to.pdf
+INPUT .\u_velocity-eps-converted-to.pdf
+INPUT .\u_velocity-eps-converted-to.pdf
+INPUT .\u_velocity-eps-converted-to.pdf
+INPUT .\v_velocity.eps
+INPUT .\v_velocity.eps
+INPUT .\v_velocity.eps
+INPUT .\v_velocity.eps
+INPUT .\v_velocity.eps
+INPUT .\v_velocity-eps-converted-to.pdf
+INPUT .\v_velocity-eps-converted-to.pdf
+INPUT .\v_velocity.eps
+INPUT .\v_velocity-eps-converted-to.pdf
+INPUT .\v_velocity-eps-converted-to.pdf
+INPUT .\v_velocity-eps-converted-to.pdf
+INPUT .\v_velocity-eps-converted-to.pdf
+INPUT .\stream_function.eps
+INPUT .\stream_function.eps
+INPUT .\stream_function.eps
+INPUT .\stream_function.eps
+INPUT .\stream_function.eps
+INPUT .\stream_function-eps-converted-to.pdf
+INPUT .\stream_function-eps-converted-to.pdf
+INPUT .\stream_function.eps
+INPUT .\stream_function-eps-converted-to.pdf
+INPUT .\stream_function-eps-converted-to.pdf
+INPUT .\stream_function-eps-converted-to.pdf
+INPUT .\stream_function-eps-converted-to.pdf
 INPUT main.aux
 INPUT C:\Users\Ganesh\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
 INPUT C:\Users\Ganesh\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
@@ -198,6 +264,8 @@ INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi5.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi5.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi7.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi7.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
@@ -214,5 +282,3 @@ INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy7.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy7.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt10.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt10.pfb
